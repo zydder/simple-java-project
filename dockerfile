@@ -5,7 +5,7 @@ MAINTAINER avinash
 
 RUN mkdir /usr/local/tomcat/webapps/myapp
 
-COPY workspace/new_proj/target/works-with-heroku-1.0.war /usr/local/tomcat/webapps/
+COPY target/works-with-heroku-1.0.war /usr/local/tomcat/webapps/
 
 EXPOSE 8080
 
